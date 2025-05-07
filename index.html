@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet"
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="UTF-8" />
+      <meta
+        name="description"
+        content="Тести на кмітливість і логіку онлайн. Цікаві запитання, корисні для розвитку миселння. Спробуйте свої сили прямо зараз!"
+      />
+      <link rel="stylesheet" href="/style.css" />
+      <meta
+        name="keywords"
+        content="тести, кмітливість, логічні завдання, онлайн тести, розвиток мислення"
+      />
+      <title>
+        Онлайн тести на кмітливість та логіку - Спробуйте прямо зараз
+      </title>
+    </head>
+  </head>
+  <body>
+    <header>
+      <h1>Онлайн тести на кмітливість</h1>
+      <p>Перевірте свою логіку та мислення за допомогою наших запитань!</p>
+    </header>
+    <main>
+      <section>
+        <h2>Тестові запитання</h2>
+        <div>
+          <p>
+            <strong>Питання 1:</strong> У мене є чотири ноги, але я не можу
+            ходити. Хто я?
+          </p>
+          <button onclick="toggleAnswer ('answer1')">Показати відповідь</button>
+          <p class="answer" id="answer1">Це стіл!</p>
+        </div>
+        <div>
+          <p>
+            <strong>Питання 2:</strong> Чим більше я беру, тим більше залишаю
+            позаду. Що це?
+          </p>
+          <button onclick="toggleAnswer ('answer2')">Показати відповідь</button>
+          <p class="answer" id="answer2">Сліди.</p>
+        </div>
+        <div>
+          <p>
+            <strong>Питання 3:</strong> Що падає, але ніколи не піднімається?
+          </p>
+          <button onclick="toggleAnswer ('answer3')">Показати відповідь</button>
+          <p class="answer" id="answer3">Дощ.</p>
+        </div>
+      </section>
+    </main>
+    <footer>2025 Онлайн тести на кмітливість</footer>
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>
